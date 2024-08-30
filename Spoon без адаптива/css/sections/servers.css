@@ -1,0 +1,66 @@
+.servers {
+    margin-top: 120px;
+}
+
+.servers__contant {}
+
+
+
+.servers__info {
+    font-size: 24px;
+    max-width: 507px;
+    font-weight: 400;
+}
+
+.info-important {
+    color: black;
+    font-weight: 700;
+}
+
+.servers__offers {
+    margin-top: 54px;
+}
+
+.servers__offers-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.servers__offers-item {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px -5px 8px #F7F7F7;
+    padding: 72px 64px 109px 41px;
+    transition: transform 1s ease;
+}
+
+.servers__offers-item:hover{
+    transform: scale(1.1);
+}
+
+.servers__offers-icon {
+    width: 60px;
+}
+
+.servers__offers-title {
+    color: rgb(0, 0, 0);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.servers__offers-text {
+    margin-top: 13px;
+    text-align: left;
+}
+
+@media (max-width: 950px) {
+    .servers__offers-list {
+        flex-direction: column;
+        row-gap: 20px; 
+    }
+}

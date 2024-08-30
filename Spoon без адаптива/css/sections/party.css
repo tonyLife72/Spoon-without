@@ -1,0 +1,47 @@
+.party {
+    padding: 150px 0;
+}
+
+
+.party__contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.party__link {
+    color: rgb(90, 185, 99);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.party__link::after{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background: rgb(90, 185, 99);
+    margin-left: 20px;
+}
+.party__info-block{
+    max-width: 483px;
+}
+.party__info{
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.info {}
+
+.info-important {}
+
+.btn {}
+
+.party__btn {}

@@ -1,0 +1,102 @@
+:root {
+    --fontTitle: font-family: "Libre Franklin", sans-serif;
+    --fontText: font-family: "IBM Plex Mono", monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1183px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.btn {
+    border-radius: 4px;
+    background: rgb(90, 185, 99);
+    padding: 15px 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    transform: scale(1.3);
+}
+
+.text {
+    color: rgb(153, 153, 153);
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info {
+    font-family: var(--fontTitle);
+    color: rgb(153, 153, 153);
+}
+
+.container-decoration {
+    border-bottom: 1px solid rgb(190, 187, 187);
+}
+
+.extra-info {
+    color: rgb(90, 185, 99);
+    font-family: IBM Plex Mono;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.wrapper {
+    background-color: rgb(250, 250, 250);
+    ;
+}
